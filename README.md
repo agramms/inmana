@@ -1,5 +1,7 @@
 # Inmana
 
+Study application for nextlevelweek #5 bootcamp
+
 To start your Phoenix server:
 
   * Install dependencies with `mix deps.get`
