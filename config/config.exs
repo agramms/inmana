@@ -11,7 +11,7 @@ config :inmana,
   ecto_repos: [Inmana.Repo]
 
 # Configures the database
-config :inmana, Inama.Repo,
+config :inmana, Inmana.Repo,
   migration_primary_key: [type: :binary_id],
   migration_foreign_key: [type: :binary_id]
 
