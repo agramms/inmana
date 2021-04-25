@@ -10,6 +10,5 @@ defmodule Inmana.Repo.Migrations.CreateRestaurantsTable do
     end
 
     create unique_index(:restaurants, [:email])
-
   end
 end

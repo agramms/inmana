@@ -15,7 +15,7 @@ defmodule Inmana.Supplies.GetByExpiration do
         preload: [:restaurant]
 
     query
-    |> Repo.all
+    |> Repo.all()
     |> Enum.group_by(fn %Supply{restaurant: %Restaurant{email: email}} -> email end)
   end
 end
