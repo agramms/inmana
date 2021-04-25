@@ -2,6 +2,12 @@
 
 Study application for nextlevelweek #5 bootcamp
 
+First start your postgres database
+
+```sh
+   docker run --name postgres -e POSTGRES_PASSWORD=postgres -p 5432:5432 postgres
+```
+
 To start your Phoenix server:
 
   * Install dependencies with `mix deps.get`
